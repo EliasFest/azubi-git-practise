@@ -11,10 +11,11 @@ public class Scope {
 
         System.out.println("Start of the program");
         HiFi hifi = new HiFi();
-        hifi.turnOn();//This should work
+        hifi.turnedOn();//This should work
         hifi.turnOff(); //This should work
         System.out.println(hifi.toString()); //This should work
         hifi.showStatus();
-        System.out.println("End of the programm")
+        System.out.println("End of the programm");
+        System.out.println("OutPrint");
     }
 }
