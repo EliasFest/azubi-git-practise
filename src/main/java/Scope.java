@@ -14,5 +14,6 @@ public class Scope {
         hifi.turnOff(); //This should work
         System.out.println(hifi.toString()); //This should work
         hifi.showStatus();
+        System.out.println("End of the programm")
     }
 }
