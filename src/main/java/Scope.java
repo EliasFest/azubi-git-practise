@@ -9,6 +9,7 @@ public class Scope {
         //When Hifi is turned on return: "Device is online and not running in standby"
         //When Hifi is turned off return: "Device is offline but standby is enabled"
 
+        System.out.println("Start of the program");
         HiFi hifi = new HiFi();
         hifi.turnOn();//This should work
         hifi.turnOff(); //This should work
